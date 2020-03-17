@@ -7,7 +7,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "license": "GNU",
+    "license": "MIT",
     "require": {
         "microsoft/application-insights": "dev-master"
     },
