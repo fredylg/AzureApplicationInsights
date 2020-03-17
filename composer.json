@@ -1,0 +1,25 @@
+{
+    "name": "fredylg/azure-application-insights",
+    "authors": [
+        {
+            "name": "Fredy Lievano",
+            "email": "fredylg@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "license": "GNU",
+    "require": {
+        "microsoft/application-insights": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fredylg\\AzureApplicationInsights\\Providers\\ApplicationInsightsServiceProvider"
+            ],
+            "aliases": {
+                "AIClient": "Fredylg\\AzureApplicationInsights\\Facades\\ApplicationInsightsClientFacade",
+                "AIServer": "Fredylg\\AzureApplicationInsights\\Facades\\ApplicationInsightsServerFacade"
+            }
+        }
+    }
+}
