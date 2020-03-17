@@ -9,7 +9,7 @@
     "minimum-stability": "dev",
     "license": "MIT",
     "require": {
-        "microsoft/application-insights": "*"
+        "microsoft/application-insights": "^0.4.0"
     },
     "extra": {
         "laravel": {
