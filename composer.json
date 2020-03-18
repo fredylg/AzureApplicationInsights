@@ -11,6 +11,11 @@
     "require": {
         "microsoft/application-insights": "^0.4.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Fredylg\\AzureApplicationInsights\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
