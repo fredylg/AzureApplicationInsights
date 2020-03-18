@@ -13,7 +13,6 @@ class ApplicationInsightsClientFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        dd('fredy no facade');
         return 'ApplicationInsightsClient';
     }
 }
