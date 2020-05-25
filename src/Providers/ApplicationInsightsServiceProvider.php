@@ -23,7 +23,7 @@ class ApplicationInsightsServiceProvider extends ServiceProvider
     {
         //
 
-        $this->app->singleton(ApplicationInsightsServer::class, function ($app) {
+        $this->app->singleton('ApplicationInsightsServer', function ($app) {
             $telemetryClient = new Telemetry_Client();
             return new ApplicationInsightsServer($telemetryClient);
         });
