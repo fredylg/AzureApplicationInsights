@@ -14,6 +14,6 @@ class ApplicationInsightsServerFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'ApplicationInsightsServer';
+      return ApplicationInsightsServer::class;
     }
 }
